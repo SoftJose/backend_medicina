@@ -9,6 +9,7 @@ import saitel.medicina.entity.Sucursal;
 
 @Repository
 public interface SucursalRepository extends JpaRepository <Sucursal, Long>{
-    List <Sucursal> findAllByEstadoTrueAndEliminadoFalseOrderByIdSucursalAsc();
+List<SucursalProjection>
+findAllByEstadoTrueAndEliminadoFalseOrderByIdSucursalAsc();
 }
     

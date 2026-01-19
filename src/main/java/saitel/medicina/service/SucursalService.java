@@ -2,8 +2,8 @@ package saitel.medicina.service;
 
 import java.util.List;
 
-import saitel.medicina.entity.Sucursal;
+import saitel.medicina.repository.SucursalProjection;
 
 public interface SucursalService {
-    List<Sucursal> ObtenerSucursalesOrdenadasPorId();
+    List<SucursalProjection> obtenerSucursales();
 }

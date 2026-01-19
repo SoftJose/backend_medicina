@@ -1,0 +1,8 @@
+type Query {
+  sucursales: [Sucursal!]!
+}
+
+type Sucursal {
+  idSucursal: ID!
+  sucursal: String!
+}
